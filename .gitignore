@@ -1,0 +1,14 @@
+# Ignore ROOT files
+*.root
+
+# Ignore plots
+Plots/*.png
+Plots/*.pdf
+*.png
+
+# Ignore Condor logs
+logs/*
+!logs/.keep
+
+# Ignore OS files
+.DS_Store
